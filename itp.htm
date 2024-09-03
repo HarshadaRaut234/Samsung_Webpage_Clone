@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="itp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <div class="container">
+    <a href="itp.htm"><img src="logo.jpg" width="100" height="50"></a>
+
+   <nav>
+    <ul>
+        
+        <a href="file:///C:/Users/Harshada/Desktop/IT%20Project/mobile.html"><li class="n1"><b>Mobile</b></li></a>
+        <li class="n1"><a href="#"><b>TV & Audio</b></a></li>
+        <li class="n1"><a href="#"><b>Appliances</b></a></li>
+        <li class="n1"><a href="#"><b>Computing</b></a></li>
+        <li class="n1"><a href="#"><b>Displays</b></a></li>
+        <li class="n1"><a href="#"><b>Accessories</b></a></li>
+        <li class="n1"><a href="#"><b>SmartThings</b></a></li>
+        <hr/>
+    </ul>
+    
+    <i class="fa fa-user"></i> 
+    <i class="fa fa-search"></i>
+    <i class="fa fa-shopping-cart"></i>
+
+</nav>
+</div>
+
+<div class="slider">
+    <div class="slides">
+
+        <input type="radio" name="rb" id="radio1">
+        <input type="radio" name="rb" id="radio2">
+        <input type="radio" name="rb" id="radio3">
+        <input type="radio" name="rb" id="radio4">
+
+      <div class="slide first">
+        
+            <video src="s23 video vid.mp4" autoplay muted loop></video>
+        </div>
+        <div class="slide">
+            <img src="flip phone.jpg">
+        </div>
+        <div class="slide">
+            <img src="galaxy book 3.jpg">
+        </div>
+        <div class="slide">
+            <img src="samsung tv.jpg">
+        </div>
+
+        <div class="nav-auto">
+            <div class="ab1"></div>
+            <div class="ab2"></div>
+            <div class="ab3"></div>
+            <div class="ab4"></div>
+        </div>
+    </div>
+    <div class="nav-manual">
+        <label for="radio1" class="mb"></label>
+        <label for="radio2" class="mb"></label>
+        <label for="radio3" class="mb"></label>
+        <label for="radio4" class="mb"></label>
+    </div>
+</div>
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked=true;
+        counter++;
+        if(counter>6){
+            counter = 1;
+        }
+    },5000);
+</script>
+
+<div class="content">
+    <h1 style="color:white;">Save upto $850 with select <br>Galaxy S23 Ultra</h1>
+    <p style="color:white;">Get upto $750 instant trade-in credit,$100 instant<br> Samsung Credit and 50% off 1 year of Samsung Care+.R</p>
+    
+</div>
+<h2>This Week's Highlights</h2>
+<div class="section2">
+<div class="wh">
+    <img src="s23 colors.jpg">
+</div>
+<div class="wh1">
+    <img src="flip phone.jpg">
+</div>
+<div class="wh2">
+    <img src="watch 5 pro.jpg">
+</div>
+<div class="wh3">
+    <img src="z fold 4.jpg">
+</div>
+<div class="wh4">
+    <img src="buds 2 pro.jpg">
+</div>
+
+<div class="whc" style="color: black;">
+Galaxy S23 Ultra
+</div>
+<div class="wh1c" style="color: black;">
+    Galaxy Z flip phone 
+    </div>
+    <div class="wh2c" style="color: black;">
+        Galaxy watch 5 pro
+        </div>
+        <div class="wh3c" style="color: black;">
+            Galaxy Z fold pro
+            </div>
+            <div class="wh4c" style="color: black;">
+                Galaxy Buds 2 pro
+                </div>
+</div>
+
+<div class="section3">
+    <h1 style="position: absolute; top: 1350px; text-align: center; margin-left: 400px; font-size: 40px;">Looking for something else?</h1>
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="Search keyword">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+</div>
+
+
+<div class="smi">
+    <a href="https://www.facebook.com/SamsungUS/"><i class="fa fa-facebook" ></i></a> 
+    <a href="https://www.instagram.com/samsung/?hl=en"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com/Samsung"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="explore">
+    <h1><b>#Explore what you can do</b></h1>
+    <div class="eq1">
+        <h2>Give your potraits some love</h2>
+    </div>
+    <div class="eq2">
+        <h2>Transform your home into the place to connect</h2>
+    </div>
+    <div class="eq3">
+        <h2>What is Nightography? Your guide to the basics</h2>
+    </div>
+    <div class="eq4">
+        <h2>How the women of Web3 are shaping its future</h2>
+    </div>
+    <div class="exploreimg">
+        <img src="exploreimg.jpg">
+    </div>
+    
+</div>
+
+</body>
+</html>

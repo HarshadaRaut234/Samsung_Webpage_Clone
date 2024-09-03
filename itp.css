@@ -1,0 +1,359 @@
+.body{
+    background-color: #f5f4f0;
+}
+ul{
+    
+    display:inline-flex;
+    min-width: 1000px;
+	list-style: none;
+    padding-left: 150px;
+    margin: 0;
+    position:absolute; top:10px;
+	font-size: 15px;
+}
+.n1{
+    padding: 15px;
+}
+.n1:hover
+{     
+    color:white;
+    background-color: #000000;    
+  border-radius: 20px;
+  
+}
+a{
+    text-decoration: none;
+    color: #0e0e0e;   
+    
+}
+ a:hover 
+{
+    color: white;
+}
+i.fa.fa-search
+{
+   display:flex;
+    position: absolute;
+    padding:10px;
+   right:10px;
+    top:10px;
+}
+i.fa.fa-user
+{
+    display:flex;
+    position: absolute;
+    padding:10px;
+   right:70px;
+    top:10px;
+
+}
+i.fa.fa-shopping-cart
+{
+    display:flex;
+    position: absolute;
+    padding:10px;
+   right:140px;
+    top:10px;
+}
+.content{
+    position: absolute;
+    top: 300px;
+    line-height: 40px;
+    font-size: larger;
+}
+.slider{
+    width: 1200px;
+    height: 550px;
+    overflow: hidden;
+}
+.slides{
+    width:100%;
+    display:flex;
+}
+.slides input{
+    display:none ;
+}
+.slide{
+    transition: 2s;
+}
+.slide img{
+    width: 1200px;
+    height:550px;
+
+}
+.video{
+    
+    width: 1200px;
+    height: 550px;
+}
+/*css for manual nav*/
+
+.nav-manual{
+    position: absolute; top: 590px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.mb{
+    border:2px solid #0c0c0c;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 0px;
+}
+.mb:not(:last child){
+    margin-right: 40px;
+
+}
+.mb:hover{
+    background: #060605;
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -120%;
+}
+#radio3:checked ~.first{
+    margin-left: -220%;
+}
+#radio4:checked ~.first{
+    margin-left: -320%;
+}
+.nav-auto{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-auto div{
+    transition:1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 0%;
+}
+#radio1:checked ~ .nav-auto .ab1{
+    background: #f5f4f0;
+}
+#radio2:checked ~ .nav-auto .ab2{
+    background: #f5f4f0;
+}
+#radio3:checked ~ .nav-auto .ab3{
+    background: #f5f4f0;
+}
+#radio4:checked ~ .nav-auto .ab4{
+    background: #f5f4f0;
+}
+h2{
+    position: absolute;
+    top:600px;
+    left:400px;
+    font-size:50px;
+}
+.wh img{
+    position: absolute;
+    margin-left: 5px;
+    top: 700px;
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+.wh1 img{
+    position: absolute;
+    margin-left: 610px;
+    top: 700px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+} 
+.wh2 img{
+    position: absolute;
+    margin-left: 920px;
+    top: 700px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.wh3 img{
+    position: absolute;
+    margin-left: 610px;
+    top:1010px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.wh4 img{
+    position: absolute;
+    margin-left:920px ;
+    top: 1010px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.wh img:hover{
+    transform: scale(1.2);
+}
+.wh1 img:hover{
+    transform: scale(1.2);
+}
+.wh2 img:hover{
+    transform: scale(1.2);
+}
+.wh3 img:hover{
+    transform: scale(1.2);
+}.wh4 img:hover{
+    transform: scale(1.2);
+}
+div.whc:hover
+{
+    transform: scale(1.5);
+}
+div.wh1c:hover
+{
+    transform: scale(1.5);
+}
+div.wh2c:hover
+{
+    transform: scale(1.5);
+}
+div.wh3c:hover
+{
+    transform: scale(1.5);
+}
+div.wh4c:hover
+{
+    transform: scale(1.5);
+}
+.whc{
+    position: absolute;
+    top:1200px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.wh1c{
+    position: absolute;
+    top: 950px;
+    margin-left: 680px;
+    font-size: 20px;
+}
+.wh2c{
+    position: absolute;
+    top: 950px;
+    margin-left: 1000px;
+    font-size: 20px;
+}
+.wh3c{
+    position: absolute;
+    top: 1270px;
+    margin-left: 680px;
+    font-size: 20px;
+}
+.wh4c{
+    position: absolute;
+    top: 1270px;
+    margin-left: 1000px;
+    font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #050505;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000000;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #000000;
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.smi{
+    position: absolute;
+    top: 2100px;
+    margin-left:1100px;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+.explore h1{
+    position: absolute;
+    top: 1600px;
+    margin-left:400px ;
+    font-size: 40px;
+}
+.explore h1:hover{
+    border-bottom:2px solid grey;
+    color: grey;
+}
+.eq1 h2{
+    position: absolute;
+    top:1700px;
+    margin-left:240px ;
+    font-size: 28px;
+}
+.eq2 h2{
+    position: absolute;
+    top:1780px;
+    margin-left:240px ;
+    font-size: 28px;
+}
+.eq3 h2{
+    position: absolute;
+    top:1860px;
+    margin-left:240px ;
+    font-size: 28px;
+}
+.eq4 h2{
+    position: absolute;
+    top:1940px;
+    margin-left:240px ;
+    font-size: 28px;
+}
+.explore h2:hover{
+    border-bottom:2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    
+}
+.explore img{
+top: 1700px;
+position: absolute;
+width: 600px;
+height: 350px;
+}
+

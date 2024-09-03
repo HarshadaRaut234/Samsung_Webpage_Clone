@@ -1,0 +1,53 @@
+.images{
+    position: absolute;
+    display: flex;
+margin-left: 0px;
+}
+.images1{
+    position: absolute;
+    display: flex;
+    margin-left: 600px;
+}
+.images2{
+    position: absolute;
+    display: flex;
+margin-left: 00px;
+top: 600px;
+}
+.images3{
+    position: absolute;
+    display: flex;
+margin-left: 600px;
+top: 600px;
+}
+.fc h2 {
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    color: white;
+    left: 2px;
+}
+.fc1 h2 {
+    position: absolute;
+    top: 200px;
+    margin-left: 600px;
+    font-size: 40px;
+    color: black;
+    left: 2px;
+}
+.fc2 h2 {
+    position: absolute;
+    top: 500px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    left: 2px;
+}
+
+.fc3 h2 {
+    position: absolute;
+    top: 500px;
+    margin-left: 600px;
+    font-size: 40px;
+    color: black;
+    left: 2px;
+}
